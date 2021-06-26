@@ -5,3 +5,4 @@
  */
 
 export type LazyValueFunction<T> = () => T;
+export type LazyValueGetter<T> = () => T;
